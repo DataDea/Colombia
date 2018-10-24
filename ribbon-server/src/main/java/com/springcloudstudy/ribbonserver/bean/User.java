@@ -10,6 +10,8 @@ public class User {
 
     private String name;
 
+    private Address address;
+
     public String getId() {
         return id;
     }
@@ -26,11 +28,16 @@ public class User {
         this.name = name;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
     public User() {
     }
 
-    public User(String id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+
 }

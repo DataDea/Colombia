@@ -1,9 +1,13 @@
 package com.springcloudstudy.ribbonserver.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.springcloudstudy.ribbonserver.bean.Address;
 import com.springcloudstudy.ribbonserver.bean.Result;
 import com.springcloudstudy.ribbonserver.bean.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -22,11 +26,15 @@ public class RibbonServer {
     RestTemplate restTemplate;
 
     @HystrixCommand(fallbackMethod = "ribbonServerError")
-    public Result ribbonServer(Map<String, Object> params) {
+    public Result ribbonServerUser(Map<String, Object> params) throws Exception {
         Result result = new Result();
-        MultiValueMap<String, Object> multiValueMap = new LinkedMultiValueMap<>();
-        multiValueMap.add((String) params.get("id"), params.get("name"));
-        User user = restTemplate.postForObject("http://user-service/usercontroller/get", params, User.class);
+        User user =null;
+        try {
+            ResponseEntity<User> entity = restTemplate.postForEntity("http://user-service/usercontroller/get", params, User.class);
+            user = entity.getBody();
+        }catch (Exception e) {
+            System.out.println(e);
+        }
         if (null == user) {
             result.setCode("0");
             result.setMessage("当前用户不存在");
@@ -35,6 +43,23 @@ public class RibbonServer {
             result.setCode("1");
             result.setMessage(null);
             result.setData(user);
+        }
+        return result;
+    }
+
+    @HystrixCommand(fallbackMethod = "ribbonServerError")
+    public Result ribbonServerAddres(Map<String, Object> params) {
+        Result result = new Result();
+        ResponseEntity<Address> entity = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class);
+        Address address = entity.getBody();
+        if (null == address) {
+            result.setCode("0");
+            result.setMessage("当前地址不存在");
+            result.setData(null);
+        } else {
+            result.setCode("1");
+            result.setMessage(null);
+            result.setData(address);
         }
         return result;
     }

@@ -20,8 +20,13 @@ public class RibbonController {
     @Autowired
     RibbonServer ribbonServer;
 
-    @RequestMapping("/get")
-    public Result get(@RequestBody Map<String, Object> params) {
-        return  ribbonServer.ribbonServer(params);
+    @RequestMapping("/getUser")
+    public Result getUser(@RequestBody Map<String, Object> params) throws Exception {
+        return  ribbonServer.ribbonServerUser(params);
+    }
+
+    @RequestMapping("/getAddress")
+    public Result getAddress(@RequestBody Map<String, Object> params) {
+        return  ribbonServer.ribbonServerAddres(params);
     }
 }
