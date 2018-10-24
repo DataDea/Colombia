@@ -9,11 +9,12 @@ import java.security.MessageDigest;
  */
 public class Signer {
 
-    public static void checkSigner(long timestamp, long timeout, String nonce, String token, String signature) {
+    public static boolean checkSigner(long timestamp, long timeout, String nonce, String token, String signature) {
         String stringToSign = genSignString(timestamp, timeout, nonce, token);
         if (!genSignature(stringToSign).equals(signature)) {
-            return;
+            return false;
         }
+        return true;
     }
 
     private static String genSignString(long timestamp, long timeout, String nonce, String token) {

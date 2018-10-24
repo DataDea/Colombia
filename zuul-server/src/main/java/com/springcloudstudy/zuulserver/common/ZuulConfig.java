@@ -12,4 +12,8 @@ public class ZuulConfig {
     public final static long CLOCK_DELTA = 120 * 1000;
 
     public final static long CLOCK_SNAP = 1000;
+
+
+    public final static String TOKEN = "446E306A504E384F";
+
 }

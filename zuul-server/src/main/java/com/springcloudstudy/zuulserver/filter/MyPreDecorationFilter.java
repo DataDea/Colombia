@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author yanghai
@@ -43,15 +44,16 @@ public class MyPreDecorationFilter extends ZuulFilter {
         HttpServletRequest request = context.getRequest();
         logger.info("receive request[" + request.getRequestURI() + "], ip[" + request.getHeader("X-Real-IP") + "]");
         boolean sing = checkSing(request);
-        if (sing) {
-
+        if (!sing) {
+            context.set("error.status_code", HttpServletResponse.SC_FORBIDDEN);
+            context.set("error.message", "非法请求头");
+            context.set("error.exception", null);
         }
         return null;
     }
 
 
     private boolean checkSing(HttpServletRequest request) {
-
         //检查公共请求头参数
         String nonce = request.getHeader("X-Nonce");
         String timestampStr = request.getHeader("X-Timestamp");
@@ -75,8 +77,7 @@ public class MyPreDecorationFilter extends ZuulFilter {
         if (StringUtils.isEmpty(accountId) && StringUtils.isEmpty(customerId) && StringUtils.isEmpty(userId)) {
             return false;
         }
-        Signer.checkSigner(timestamp, timeout, nonce, "", signature);
-        return true;
+        return Signer.checkSigner(timestamp, timeout, nonce, ZuulConfig.TOKEN, signature);
     }
 
 
