@@ -7,3 +7,10 @@ server:
 spring:
   application:
     name: service-ribbon
+  boot:
+    admin:
+      client:
+        url: http://localhost:50000
+user-service:
+  ribbon:
+    RulePredicateClasses: com.netflix.loadbalancer.RandomRule

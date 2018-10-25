@@ -1,3 +1,9 @@
 spring:
   profiles:
     active: pro
+info:
+  app:
+    name: "Ribbon Server Pro"
+    description: "This is a Ribbon Server"
+    version: "v1.0"
+    status: "success"
