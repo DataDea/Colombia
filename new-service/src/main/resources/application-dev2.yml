@@ -1,13 +1,16 @@
 spring:
   application:
-    name: service-admin
+    name: new-service
+    #监控
+  zipkin:
+    base-url: http://localhost:9411
   security:
     user:
-      name: "admin"
-      password: "admin"
-
+      name: "client"
+      password: "client"
+#端口
 server:
-  port: 50000
+  port: 18084
 
 #注册中心客户端的配置
 eureka:

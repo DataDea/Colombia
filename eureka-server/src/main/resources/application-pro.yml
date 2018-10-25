@@ -1,0 +1,36 @@
+#spring的全局配置
+spring:
+  application:
+    #应用名称
+    name: eurka-server
+#端口
+server:
+  port: 18080
+
+#注册中心的配置
+eureka:
+  server:
+    #关闭自我保护(生产时打开该选项)
+    enable-self-preservation: true
+    #扫描失效服务的间隔时间（缺省为60*1000ms）
+    eviction-interval-timer-in-ms: 50000
+  instance:
+    #主机名
+    hostname: localhost
+  client:
+    #是否注册为服务
+    registerWithEureka: false
+    #是否检索服务
+    fetchRegistry: false
+    #eureka空间的地址
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

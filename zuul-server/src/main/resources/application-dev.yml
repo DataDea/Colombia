@@ -1,13 +1,10 @@
 spring:
   application:
-    name: service-admin
+    name: service-zuul
   security:
     user:
-      name: "admin"
-      password: "admin"
-
-server:
-  port: 50000
+      name: "client"
+      password: "client"
 
 #注册中心客户端的配置
 eureka:
@@ -20,8 +17,17 @@ eureka:
     # 发呆时间，即服务续约到期时间（缺省为90s）
     lease-renewal-interval-in-seconds: 10
     metadata-map:
-      user.name: ${spring.security.user.name}
-      user.password: ${spring.security.user.password}
+      user: ${spring.security.user.name}
+      password: ${spring.security.user.password}
+
+server:
+  port: 18081
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: service-ribbon
 
 management:
   endpoints:

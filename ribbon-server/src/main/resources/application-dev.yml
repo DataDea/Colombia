@@ -1,13 +1,10 @@
 spring:
   application:
-    name: service-admin
+    name: service-ribbon
   security:
     user:
       name: "admin"
       password: "admin"
-
-server:
-  port: 50000
 
 #注册中心客户端的配置
 eureka:
@@ -22,12 +19,5 @@ eureka:
     metadata-map:
       user.name: ${spring.security.user.name}
       user.password: ${spring.security.user.password}
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: ALWAYS
+server:
+  port: 18082
