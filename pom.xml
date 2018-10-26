@@ -6,6 +6,7 @@
 
     <groupId>springcloud-study</groupId>
     <artifactId>springcloud-study</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
@@ -13,6 +14,7 @@
         <module>zuul-server</module>
         <module>user-service</module>
         <module>new-service</module>
+        <module>common-api</module>
     </modules>
 
     <properties>
@@ -40,6 +42,13 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.springcloudstudy</groupId>
+            <artifactId>common-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

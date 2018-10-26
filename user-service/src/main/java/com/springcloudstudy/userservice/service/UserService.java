@@ -1,13 +1,11 @@
 package com.springcloudstudy.userservice.service;
 
-import com.springcloudstudy.userservice.bean.Address;
-import com.springcloudstudy.userservice.bean.User;
+import com.springcloudstudy.common.bean.Address;
+import com.springcloudstudy.common.bean.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.LinkedMultiValueMap;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
@@ -32,10 +30,21 @@ public class UserService {
         try {
             Address address = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class).getBody();
             user.setAddress(address);
-        }catch (Exception e){
+        } catch (Exception e) {
             user.setAddress(null);
         }
         logger.info("start service ... ");
         return user;
+    }
+
+
+    public User info(Map<String, Object> params) {
+        if (!(params.get("max") instanceof Number) || !(params.get("min") instanceof Number)) {
+            throw new RuntimeException("参数异常");
+        }
+        if (0 == (int)params.get("min")) {
+            throw new RuntimeException("除数为零");
+        }
+        return new User();
     }
 }

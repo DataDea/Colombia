@@ -1,4 +1,4 @@
-package com.springcloudstudy.ribbonserver.bean;
+package com.springcloudstudy.common.bean;
 
 
 /**

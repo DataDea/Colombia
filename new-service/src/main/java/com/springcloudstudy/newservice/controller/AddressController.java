@@ -1,6 +1,6 @@
 package com.springcloudstudy.newservice.controller;
 
-import com.springcloudstudy.newservice.bean.Address;
+import com.springcloudstudy.common.bean.Address;
 import com.springcloudstudy.newservice.service.AddressService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,7 +31,7 @@ public class AddressController {
             throw new RuntimeException("检查参数错误");
         }
         Address address = addressService.get();
-        logger.info("");
+        logger.info("---------");
         return address;
     }
 }

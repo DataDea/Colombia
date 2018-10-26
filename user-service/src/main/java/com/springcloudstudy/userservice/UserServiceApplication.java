@@ -14,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@EnableDiscoveryClient
 public class UserServiceApplication {
 
     public static void main(String[] args) {

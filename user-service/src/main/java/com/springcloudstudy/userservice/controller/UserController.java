@@ -1,6 +1,7 @@
 package com.springcloudstudy.userservice.controller;
 
-import com.springcloudstudy.userservice.bean.User;
+import com.springcloudstudy.common.bean.Result;
+import com.springcloudstudy.common.bean.User;
 import com.springcloudstudy.userservice.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,4 +31,11 @@ public class UserController {
         User user = userService.get(params);
         return user;
     }
+
+    @RequestMapping("/info")
+    public Result info(@RequestBody Map<String, Object> params) {
+        User info = userService.info(params);
+        return new Result("1", "success", info);
+    }
+
 }

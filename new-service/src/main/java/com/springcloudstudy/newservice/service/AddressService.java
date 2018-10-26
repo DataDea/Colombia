@@ -1,6 +1,6 @@
 package com.springcloudstudy.newservice.service;
 
-import com.springcloudstudy.newservice.bean.Address;
+import com.springcloudstudy.common.bean.Address;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

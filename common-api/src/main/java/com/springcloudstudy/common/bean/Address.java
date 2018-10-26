@@ -1,4 +1,4 @@
-package com.springcloudstudy.newservice.bean;
+package com.springcloudstudy.common.bean;
 
 /**
  * @author yanghai

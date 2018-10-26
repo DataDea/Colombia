@@ -1,4 +1,4 @@
-package com.springcloudstudy.ribbonserver.bean;
+package com.springcloudstudy.common.bean;
 
 /**
  * @author yanghai
@@ -10,7 +10,7 @@ public class User {
 
     private String name;
 
-    private Address address;
+    public Address address;
 
     public String getId() {
         return id;
@@ -38,6 +38,4 @@ public class User {
 
     public User() {
     }
-
-
 }

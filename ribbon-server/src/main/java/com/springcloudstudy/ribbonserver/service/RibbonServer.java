@@ -1,16 +1,12 @@
 package com.springcloudstudy.ribbonserver.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.springcloudstudy.ribbonserver.bean.Address;
-import com.springcloudstudy.ribbonserver.bean.Result;
-import com.springcloudstudy.ribbonserver.bean.User;
+import com.springcloudstudy.common.bean.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.util.LinkedMultiValueMap;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
@@ -21,6 +17,8 @@ import java.util.Map;
  */
 @Service
 public class RibbonServer {
+
+    private static Logger logger = LoggerFactory.getLogger(RibbonServer.class);
 
     @Autowired
     RestTemplate restTemplate;
@@ -33,7 +31,7 @@ public class RibbonServer {
             ResponseEntity<User> entity = restTemplate.postForEntity("http://user-service/usercontroller/get", params, User.class);
             user = entity.getBody();
         }catch (Exception e) {
-            System.out.println(e);
+
         }
         if (null == user) {
             result.setCode("0");
@@ -50,8 +48,14 @@ public class RibbonServer {
     @HystrixCommand(fallbackMethod = "ribbonServerError")
     public Result ribbonServerAddres(Map<String, Object> params) {
         Result result = new Result();
-        ResponseEntity<Address> entity = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class);
-        Address address = entity.getBody();
+        ResponseEntity<Address> entity = null;
+        Address address = null;
+        try {
+            entity = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class);
+            address = entity.getBody();
+        }catch (Exception e){
+            logger.error("[负载均衡器Http请求异常]" + e.getMessage());
+        }
         if (null == address) {
             result.setCode("0");
             result.setMessage("当前地址不存在");

@@ -1,6 +1,6 @@
 package com.springcloudstudy.ribbonserver.controller;
 
-import com.springcloudstudy.ribbonserver.bean.Result;
+import com.springcloudstudy.common.bean.Result;
 import com.springcloudstudy.ribbonserver.service.RibbonServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

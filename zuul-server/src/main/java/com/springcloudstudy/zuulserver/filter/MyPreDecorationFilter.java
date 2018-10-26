@@ -54,6 +54,7 @@ public class MyPreDecorationFilter extends ZuulFilter {
 
 
     private boolean checkSing(HttpServletRequest request) {
+        logger.info("[请求URL" + request.getRequestURI() + "]");
         //检查公共请求头参数
         String nonce = request.getHeader("X-Nonce");
         String timestampStr = request.getHeader("X-Timestamp");

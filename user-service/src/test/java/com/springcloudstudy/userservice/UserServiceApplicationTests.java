@@ -1,6 +1,6 @@
 package com.springcloudstudy.userservice;
 
-import com.springcloudstudy.userservice.bean.User;
+import com.springcloudstudy.common.bean.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
