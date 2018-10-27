@@ -27,11 +27,9 @@ public class UserController extends BaseController {
     private UserService userService;
 
     @RequestMapping("/get")
-    public User get(@RequestBody Map<String, Object> params) {
+    public JsonResult get(@RequestBody Map<String, Object> params) {
         checkParams(params.get("id"), params.get("name"));
-        logger.info("/usercontroller/get");
-        User user = userService.get(params);
-        return user;
+        return new JsonResult(userService.get(params));
     }
 
     @RequestMapping("/info")

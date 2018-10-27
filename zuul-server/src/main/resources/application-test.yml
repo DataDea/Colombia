@@ -5,6 +5,10 @@ spring:
     user:
       name: "client"
       password: "client"
+  http:
+    encoding:
+    charset: utf-8
+    force: true
 
 #注册中心客户端的配置
 eureka:
@@ -25,9 +29,12 @@ server:
 
 zuul:
   routes:
-    api-a:
+    user-service:
       path: /api-a/**
-      serviceId: service-ribbon
+      serviceId: user-service
+    new-service:
+      path: /api-b/**
+      serviceId: new-service
 
 management:
   endpoints:
