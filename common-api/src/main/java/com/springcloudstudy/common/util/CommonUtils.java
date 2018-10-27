@@ -1,4 +1,4 @@
-package com.springcloudstudy.zuulserver.common;
+package com.springcloudstudy.common.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

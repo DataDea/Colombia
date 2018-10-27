@@ -23,28 +23,23 @@ public class UserService {
     RestTemplate restTemplate;
 
     public User get(Map<String, Object> params) {
-        logger.info("start service .... ");
+        logger.info("[start user service]");
         User user = new User();
         user.setId((String) params.get("id"));
         user.setName((String) params.get("name"));
-        try {
-            Address address = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class).getBody();
-            user.setAddress(address);
-        } catch (Exception e) {
-            user.setAddress(null);
-        }
-        logger.info("start service ... ");
+//        try {
+//            Address address = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class).getBody();
+//            user.setAddress(address);
+//        } catch (Exception e) {
+//            user.setAddress(null);
+//
+//        }
+        logger.info("[end user service]");
         return user;
     }
 
 
     public User info(Map<String, Object> params) {
-        if (!(params.get("max") instanceof Number) || !(params.get("min") instanceof Number)) {
-            throw new RuntimeException("参数异常");
-        }
-        if (0 == (int)params.get("min")) {
-            throw new RuntimeException("除数为零");
-        }
         return new User();
     }
 }

@@ -1,6 +1,7 @@
 package com.springcloudstudy.ribbonserver.controller;
 
-import com.springcloudstudy.common.bean.Result;
+import com.springcloudstudy.common.contorller.BaseController;
+import com.springcloudstudy.common.spring.JsonResult;
 import com.springcloudstudy.ribbonserver.service.RibbonServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,18 +16,20 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/ribboncontroller")
-public class RibbonController {
+public class RibbonController extends BaseController {
 
     @Autowired
     RibbonServer ribbonServer;
 
     @RequestMapping("/getUser")
-    public Result getUser(@RequestBody Map<String, Object> params) throws Exception {
-        return  ribbonServer.ribbonServerUser(params);
+    public JsonResult getUser(@RequestBody Map<String, Object> params) throws Exception {
+        checkParams(params.get("id"), params.get("name"));
+        return ribbonServer.ribbonServerUser(params);
     }
 
     @RequestMapping("/getAddress")
-    public Result getAddress(@RequestBody Map<String, Object> params) {
-        return  ribbonServer.ribbonServerAddres(params);
+    public JsonResult getAddress(@RequestBody Map<String, Object> params) {
+        checkParams(params.get("id"), params.get("name"));
+        return ribbonServer.ribbonServerAddress(params);
     }
 }

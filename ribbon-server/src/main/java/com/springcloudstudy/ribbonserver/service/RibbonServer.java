@@ -2,6 +2,7 @@ package com.springcloudstudy.ribbonserver.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.springcloudstudy.common.bean.*;
+import com.springcloudstudy.common.spring.JsonResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,51 +25,36 @@ public class RibbonServer {
     RestTemplate restTemplate;
 
     @HystrixCommand(fallbackMethod = "ribbonServerError")
-    public Result ribbonServerUser(Map<String, Object> params) throws Exception {
-        Result result = new Result();
-        User user =null;
+    public JsonResult ribbonServerUser(Map<String, Object> params) {
+        User user;
         try {
             ResponseEntity<User> entity = restTemplate.postForEntity("http://user-service/usercontroller/get", params, User.class);
             user = entity.getBody();
-        }catch (Exception e) {
-
+        } catch (Exception e) {
+            throw JsonResult.ERR_USER_SERVICE;
         }
         if (null == user) {
-            result.setCode("0");
-            result.setMessage("当前用户不存在");
-            result.setData(null);
-        } else {
-            result.setCode("1");
-            result.setMessage(null);
-            result.setData(user);
+            throw JsonResult.ERR_USER_NOT_EXIST;
         }
-        return result;
+        return new JsonResult(user);
     }
 
     @HystrixCommand(fallbackMethod = "ribbonServerError")
-    public Result ribbonServerAddres(Map<String, Object> params) {
-        Result result = new Result();
-        ResponseEntity<Address> entity = null;
-        Address address = null;
+    public JsonResult ribbonServerAddress(Map<String, Object> params) {
+        Address address;
         try {
-            entity = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class);
+            ResponseEntity<Address> entity = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, Address.class);
             address = entity.getBody();
-        }catch (Exception e){
-            logger.error("[负载均衡器Http请求异常]" + e.getMessage());
+        } catch (Exception e) {
+            throw JsonResult.ERR_ADDRESS_SERVICE;
         }
         if (null == address) {
-            result.setCode("0");
-            result.setMessage("当前地址不存在");
-            result.setData(null);
-        } else {
-            result.setCode("1");
-            result.setMessage(null);
-            result.setData(address);
+            throw JsonResult.ERR_UER_ADDRESS_EXIST;
         }
-        return result;
+        return new JsonResult(address);
     }
 
-    public Result ribbonServerError(Map<String, Object> params) {
-        return new Result("500", "内部服务错误", null);
+    public JsonResult ribbonServerError(Map<String, Object> params) {
+        return new JsonResult(500, "内部服务错误");
     }
 }
