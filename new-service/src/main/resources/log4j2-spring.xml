@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="warn" monitorInterval="30">
+    <!--先定义所有的appender-->
+    <appenders>
+        <!--这个输出控制台的配置-->
+        <console name="Console" target="SYSTEM_OUT">
+            <!--输出日志的格式-->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %p [%thread] [%F:%L:%M] : %m%n"/>
+        </console>
+        <RollingFile name="RollingFileInfo" fileName="./new-service/log/info.log"
+                     filePattern="./new-service/log/info/info-%d{yyyy-MM-dd}.log">
+            <Filters>
+                <!--<RegexFilter regex=".*[BaseJdbcLogger.java:159:debug].*" onMatch="ACCEPT" onMismatch="NEUTRAL"/>-->
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %p [%thread] [%F:%L:%M] : %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="RollingFileWarn" fileName="./new-service/log/warn.log"
+                     filePattern="./new-service/log/warn/warn-%d{yyyy-MM-dd}.log">
+            <Filters>
+                <ThresholdFilter level="WARN" onMatch="NEUTRAL" onMismatch="DENY"/>
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <RegexFilter regex="No mapping found for HTTP request with URI .*" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %p [%thread] [%F:%L:%M] : %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <!-- DefaultRolloverStrategy属性如不设置，则默认为最多同一文件夹下7个文件，这里设置了20 -->
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <RollingFile name="RollingFileError" fileName="./new-service/log/error.log"
+                     filePattern="./new-service/log/error/error-%d{yyyy-MM-dd}.log">
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %p [%thread] [%F:%L:%M] : %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <!-- DefaultRolloverStrategy属性如不设置，则默认为最多同一文件夹下7个文件，这里设置了20 -->
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+    </appenders>
+    <!--然后定义logger，只有定义了logger并引入的appender，appender才会生效-->
+    <loggers>
+        <!--过滤掉spring和hibernate的一些无用的debug信息-->
+        <logger name="org.springframework" level="INFO">
+        </logger>
+        <!--<logger name="org.mybatis" level="INFO">-->
+        <!--</logger>-->
+        <root level="info">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFileInfo"/>
+            <appender-ref ref="RollingFileWarn"/>
+            <appender-ref ref="RollingFileError"/>
+        </root>
+    </loggers>
+</configuration>

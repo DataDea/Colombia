@@ -34,3 +34,7 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
+
+#日志的配置
+logging:
+  file: new-service/log/info.log
