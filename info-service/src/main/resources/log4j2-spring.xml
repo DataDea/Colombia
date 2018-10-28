@@ -7,8 +7,8 @@
             <!--输出日志的格式-->
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %p [%thread] [%F:%L:%M] : %m%n"/>
         </console>
-        <RollingFile name="RollingFileInfo" fileName="./new-service/log/info.log"
-                     filePattern="./new-service/log/info/info-%d{yyyy-MM-dd}.log">
+        <RollingFile name="RollingFileInfo" fileName="./info-service/log/info.log"
+                     filePattern="./info-service/log/info/info-%d{yyyy-MM-dd}.log">
             <Filters>
                 <!--<RegexFilter regex=".*[BaseJdbcLogger.java:159:debug].*" onMatch="ACCEPT" onMismatch="NEUTRAL"/>-->
                 <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
@@ -19,8 +19,8 @@
             </Policies>
         </RollingFile>
 
-        <RollingFile name="RollingFileWarn" fileName="./new-service/log/warn.log"
-                     filePattern="./new-service/log/warn/warn-%d{yyyy-MM-dd}.log">
+        <RollingFile name="RollingFileWarn" fileName="./info-service/log/warn.log"
+                     filePattern="./info-service/log/warn/warn-%d{yyyy-MM-dd}.log">
             <Filters>
                 <ThresholdFilter level="WARN" onMatch="NEUTRAL" onMismatch="DENY"/>
                 <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
@@ -34,8 +34,8 @@
             <DefaultRolloverStrategy max="20"/>
         </RollingFile>
 
-        <RollingFile name="RollingFileError" fileName="./new-service/log/error.log"
-                     filePattern="./new-service/log/error/error-%d{yyyy-MM-dd}.log">
+        <RollingFile name="RollingFileError" fileName="./info-service/log/error.log"
+                     filePattern="./info-service/log/error/error-%d{yyyy-MM-dd}.log">
             <Filters>
                 <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
             </Filters>

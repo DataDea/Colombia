@@ -27,7 +27,7 @@ public class AddressController extends BaseController {
     private AddressService addressService;
 
     @RequestMapping("/get")
-    public JsonResult get(@RequestBody Map<String, Object> params){
+    public JsonResult<Address> get(@RequestBody Map<String, Object> params){
         checkParams(params.get("id"), params.get("name"));
         return new JsonResult(addressService.get());
     }

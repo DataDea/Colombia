@@ -1,5 +1,6 @@
 package com.springcloudstudy.userservice.controller;
 
+import com.springcloudstudy.common.bean.Address;
 import com.springcloudstudy.common.bean.User;
 import com.springcloudstudy.common.contorller.BaseController;
 import com.springcloudstudy.common.spring.JsonResult;
@@ -21,19 +22,18 @@ import java.util.Map;
 @RequestMapping("/usercontroller")
 public class UserController extends BaseController {
 
-    private static Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
     private UserService userService;
 
     @RequestMapping("/get")
-    public JsonResult get(@RequestBody Map<String, Object> params) {
+    public JsonResult<Address> get(@RequestBody Map<String, Object> params) {
         checkParams(params.get("id"), params.get("name"));
         return new JsonResult(userService.get(params));
     }
 
     @RequestMapping("/info")
-    public JsonResult info(@RequestBody Map<String, Object> params) {
+    public JsonResult<String> info(@RequestBody Map<String, Object> params) {
         checkParams(params.get("id"), params.get("name"));
         User info = userService.info(params);
         return new JsonResult(info);

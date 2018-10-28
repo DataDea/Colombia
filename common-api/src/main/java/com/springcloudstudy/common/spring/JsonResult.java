@@ -1,14 +1,14 @@
 package com.springcloudstudy.common.spring;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.springcloudstudy.common.exception.ServiceException;
 
 /**
- *
  * @author yanghai
  * @date 14-12-12
  */
-public class JsonResult {
+public class JsonResult<T> {
 
     public static final ServiceException ERR_INVALID_PARAMS = new ServiceException(1000, "请求参数异常");
     public static final ServiceException ERR_USER_NOT_EXIST = new ServiceException(1001, "用户不存在");
@@ -20,7 +20,7 @@ public class JsonResult {
 
     public String message;
 
-    public Object data;
+    public T data;
 
     /**
      * 成功返回
@@ -44,11 +44,11 @@ public class JsonResult {
         this.message = message;
     }
 
-    public Object getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(Object data) {
+    public void setData(T data) {
         this.data = data;
     }
 
@@ -57,7 +57,7 @@ public class JsonResult {
      */
 
 
-    public JsonResult(Object data) {
+    public JsonResult(T data) {
         this.data = data;
     }
 
@@ -66,6 +66,14 @@ public class JsonResult {
         this.message = message;
     }
 
-
+    @Override
+    public String toString() {
+        try {
+            return new ObjectMapper().writeValueAsString(this);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
 
 }

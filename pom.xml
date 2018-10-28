@@ -13,7 +13,7 @@
         <module>eureka-server</module>
         <module>zuul-server</module>
         <module>user-service</module>
-        <module>new-service</module>
+        <module>info-service</module>
         <module>common-api</module>
     </modules>
 
