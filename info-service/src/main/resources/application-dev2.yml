@@ -37,4 +37,4 @@ management:
 
 #日志的配置
 logging:
-  file: new-service/log/info.log
+  file: info-service/log/info.log

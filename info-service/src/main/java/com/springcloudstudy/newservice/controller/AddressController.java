@@ -3,6 +3,7 @@ package com.springcloudstudy.newservice.controller;
 import com.springcloudstudy.common.bean.Address;
 import com.springcloudstudy.common.contorller.BaseController;
 import com.springcloudstudy.common.spring.JsonResult;
+import com.springcloudstudy.common.util.JacksonUtil;
 import com.springcloudstudy.newservice.service.AddressService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,14 +22,12 @@ import java.util.Map;
 @RequestMapping("/addresscontroller")
 public class AddressController extends BaseController {
 
-    private static Logger logger = LoggerFactory.getLogger(AddressController.class);
-
     @Autowired
     private AddressService addressService;
 
     @RequestMapping("/get")
-    public JsonResult<Address> get(@RequestBody Map<String, Object> params){
+    public JsonResult<Address> get(@RequestBody Map<String, Object> params) {
         checkParams(params.get("id"), params.get("name"));
-        return new JsonResult(addressService.get());
+        return new JsonResult<>(addressService.get());
     }
 }

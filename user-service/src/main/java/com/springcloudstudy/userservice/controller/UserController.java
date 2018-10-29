@@ -27,13 +27,13 @@ public class UserController extends BaseController {
     private UserService userService;
 
     @RequestMapping("/get")
-    public JsonResult<Address> get(@RequestBody Map<String, Object> params) {
+    public JsonResult get(@RequestBody Map<String, Object> params) {
         checkParams(params.get("id"), params.get("name"));
         return new JsonResult(userService.get(params));
     }
 
     @RequestMapping("/info")
-    public JsonResult<String> info(@RequestBody Map<String, Object> params) {
+    public JsonResult info(@RequestBody Map<String, Object> params) {
         checkParams(params.get("id"), params.get("name"));
         User info = userService.info(params);
         return new JsonResult(info);

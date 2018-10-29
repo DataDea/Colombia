@@ -1,12 +1,10 @@
 package com.springcloudstudy.common.spring;
 
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.springcloudstudy.common.exception.ServiceException;
 
 /**
- * @author yanghai
- * @date 14-12-12
+ * Created by sudongsheng on 2018/7/2
  */
 public class JsonResult<T> {
 
@@ -28,35 +26,9 @@ public class JsonResult<T> {
     public JsonResult() {
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public T getData() {
-        return data;
-    }
-
-    public void setData(T data) {
-        this.data = data;
-    }
-
     /**
      * 成功返回
      */
-
-
     public JsonResult(T data) {
         this.data = data;
     }
@@ -75,5 +47,4 @@ public class JsonResult<T> {
         }
         return "";
     }
-
 }

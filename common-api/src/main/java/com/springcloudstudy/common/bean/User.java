@@ -38,4 +38,13 @@ public class User {
 
     public User() {
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", address=" + address +
+                '}';
+    }
 }

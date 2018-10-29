@@ -3,9 +3,11 @@ package com.springcloudstudy.userservice.service;
 import com.springcloudstudy.common.bean.Address;
 import com.springcloudstudy.common.bean.User;
 import com.springcloudstudy.common.spring.JsonResult;
+import com.springcloudstudy.common.util.JacksonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -29,10 +31,11 @@ public class UserService {
         user.setId((String) params.get("id"));
         user.setName((String) params.get("name"));
         try {
-            JsonResult<Address> jsonResult = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, JsonResult.class).getBody();
-            logger.info("[info-service的结果为]" + jsonResult.toString());
-            user.setAddress(jsonResult.getData());
+             JsonResult<Address> json = restTemplate.postForEntity("http://new-service/addresscontroller/get", params, JsonResult.class).getBody();
+            logger.info("[info-service的结果为]" + json.data);
+            user.setAddress(JacksonUtil.convertJsonToObject(JacksonUtil.convertObjecToJson(json.data), Address.class));
         } catch (Exception e) {
+            logger.error(e.getMessage());
             throw JsonResult.ERR_ADDRESS_SERVICE;
         }
         logger.info("[end user service]");

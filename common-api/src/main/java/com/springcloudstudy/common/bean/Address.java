@@ -33,4 +33,12 @@ public class Address {
         this.name = name;
         this.info = info;
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "name='" + name + '\'' +
+                ", info='" + info + '\'' +
+                '}';
+    }
 }

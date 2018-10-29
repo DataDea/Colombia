@@ -28,7 +28,7 @@
 user-service/log
 server-admin/log
 ribbon-server/log
-new-service/log
+info-service/log
 feign-server/log
 eureka-server/log
 common-api/log
