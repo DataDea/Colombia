@@ -8,6 +8,12 @@ import com.springcloudstudy.common.exception.ServiceException;
  */
 public class JsonResult<T> {
 
+    /**
+     * 通用错误提示码
+     */
+    public static final ServiceException ERR_INVALID_HEADER = new ServiceException(2001, "非法请求头");
+
+
     public static final ServiceException ERR_INVALID_PARAMS = new ServiceException(1000, "请求参数异常");
     public static final ServiceException ERR_USER_NOT_EXIST = new ServiceException(1001, "用户不存在");
     public static final ServiceException ERR_UER_ADDRESS_EXIST = new ServiceException(1002, "地址不存在");

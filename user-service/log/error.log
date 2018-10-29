@@ -1,0 +1,637 @@
+2018-10-29 10:23:49.262 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.285 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.302 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.317 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.334 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.351 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.368 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.382 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.395 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.408 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.421 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.434 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.446 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.465 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.479 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.499 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.511 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.525 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.537 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.551 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.567 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.581 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.594 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.607 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.621 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.634 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.647 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.659 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.672 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.688 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.715 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.737 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.755 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.772 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.793 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.812 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.826 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.839 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.852 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.865 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.878 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.891 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.904 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.933 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.953 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.971 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:49.990 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.009 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.027 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.040 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.053 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.066 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.079 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.091 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.104 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.116 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.135 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.154 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.176 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.206 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.239 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.257 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.272 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.286 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.300 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.312 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.324 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.346 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.368 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.391 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.414 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.439 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.453 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.466 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.479 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.491 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.502 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.514 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.527 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.545 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.562 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.580 ERROR [http-nio-18085-exec-9] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.603 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.624 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.649 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.666 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.679 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.698 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.711 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.723 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.735 ERROR [http-nio-18085-exec-3] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.752 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.769 ERROR [http-nio-18085-exec-4] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.783 ERROR [http-nio-18085-exec-10] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.799 ERROR [http-nio-18085-exec-5] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.821 ERROR [http-nio-18085-exec-6] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.841 ERROR [http-nio-18085-exec-8] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.860 ERROR [http-nio-18085-exec-2] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.873 ERROR [http-nio-18085-exec-1] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:23:50.886 ERROR [http-nio-18085-exec-7] [UserService.java:39:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.443 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.464 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.477 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.489 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.501 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.514 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.529 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.542 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.555 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.567 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.579 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.593 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.609 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.623 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.635 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.649 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.673 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.686 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.699 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.712 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.723 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.734 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.746 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.758 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.770 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.783 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.795 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.807 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.819 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.831 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.843 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.855 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.868 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.882 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.901 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.917 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.930 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.950 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.969 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:12.986 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.000 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.013 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.024 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.036 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.048 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.060 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.071 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.083 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.101 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.119 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.136 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.151 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.168 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.189 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.202 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.214 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.225 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.238 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.250 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.261 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.273 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.284 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.295 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.309 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.324 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.340 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.355 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.370 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.389 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.408 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.424 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.437 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.449 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.461 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.474 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.486 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.498 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.512 ERROR [http-nio-18085-exec-9] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.534 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.555 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.576 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.615 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.639 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.652 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.664 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.675 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.687 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.700 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.712 ERROR [http-nio-18085-exec-7] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.724 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.742 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.758 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.775 ERROR [http-nio-18085-exec-1] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.795 ERROR [http-nio-18085-exec-2] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.815 ERROR [http-nio-18085-exec-4] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.837 ERROR [http-nio-18085-exec-5] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.850 ERROR [http-nio-18085-exec-10] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.861 ERROR [http-nio-18085-exec-6] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.873 ERROR [http-nio-18085-exec-8] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:38:13.885 ERROR [http-nio-18085-exec-3] [UserService.java:37:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 10:50:50.275 ERROR [DiscoveryClient-InstanceInfoReplicator-0] [RedirectingEurekaHttpClient.java:91:execute] : Request execution error
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.client.ClientProtocolException
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:839) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 more
+Caused by: org.apache.http.client.NonRepeatableRequestException: Cannot retry request with a non-repeatable request entity.  The cause lists the reason the original request failed.
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:658) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 more
+Caused by: java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_181]
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111) ~[?:1.8.0_181]
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155) ~[?:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:160) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:168) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.ChunkedOutputStream.close(ChunkedOutputStream.java:203) ~[httpcore-4.4.9.jar:4.4.9]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.close(UTF8JsonGenerator.java:1138) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:1125) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:950) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at com.netflix.discovery.converters.EurekaJacksonCodec.writeTo(EurekaJacksonCodec.java:221) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.converters.wrappers.CodecWrappers$LegacyJacksonJson.encode(CodecWrappers.java:304) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.provider.DiscoveryJerseyProvider.writeTo(DiscoveryJerseyProvider.java:135) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.RequestWriter$RequestEntityWriterImpl.writeRequestEntity(RequestWriter.java:231) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler$2.writeTo(ApacheHttpClient4Handler.java:289) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:94) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:110) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:118) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:266) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.sendRequestEntity(AbstractClientConnAdapter.java:239) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:238) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 29 more
+2018-10-29 10:50:52.411 ERROR [DiscoveryClient-InstanceInfoReplicator-0] [RedirectingEurekaHttpClient.java:83:execute] : Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+2018-10-29 11:08:33.125 ERROR [DiscoveryClient-InstanceInfoReplicator-0] [RedirectingEurekaHttpClient.java:91:execute] : Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+2018-10-29 11:08:35.248 ERROR [DiscoveryClient-HeartbeatExecutor-0] [RedirectingEurekaHttpClient.java:83:execute] : Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 28 more
+2018-10-29 11:08:35.248 ERROR [DiscoveryClient-InstanceInfoReplicator-0] [RedirectingEurekaHttpClient.java:83:execute] : Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 31 more
+2018-10-29 11:08:35.251 ERROR [DiscoveryClient-HeartbeatExecutor-0] [DiscoveryClient.java:860:renew] : DiscoveryClient_USER-SERVICE/172.19.128.63:user-service:18085 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1399) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-10-29 11:42:26.150 ERROR [http-nio-18085-exec-10] [UserService.java:38:get] : java.util.LinkedHashMap cannot be cast to com.springcloudstudy.common.bean.Address
+2018-10-29 11:52:37.865 ERROR [DiscoveryClient-InstanceInfoReplicator-0] [RedirectingEurekaHttpClient.java:91:execute] : Request execution error
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.client.ClientProtocolException
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: org.apache.http.client.ClientProtocolException
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:839) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+Caused by: org.apache.http.client.NonRepeatableRequestException: Cannot retry request with a non-repeatable request entity.  The cause lists the reason the original request failed.
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:658) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+Caused by: java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_181]
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111) ~[?:1.8.0_181]
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155) ~[?:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:160) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:168) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.ChunkedOutputStream.close(ChunkedOutputStream.java:203) ~[httpcore-4.4.9.jar:4.4.9]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.close(UTF8JsonGenerator.java:1138) ~[jackson-core-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:1125) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:950) ~[jackson-databind-2.9.6.jar:2.9.6]
+	at com.netflix.discovery.converters.EurekaJacksonCodec.writeTo(EurekaJacksonCodec.java:221) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.converters.wrappers.CodecWrappers$LegacyJacksonJson.encode(CodecWrappers.java:304) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.provider.DiscoveryJerseyProvider.writeTo(DiscoveryJerseyProvider.java:135) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.RequestWriter$RequestEntityWriterImpl.writeRequestEntity(RequestWriter.java:231) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler$2.writeTo(ApacheHttpClient4Handler.java:289) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:94) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:110) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:118) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:266) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.sendRequestEntity(AbstractClientConnAdapter.java:239) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:238) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+2018-10-29 11:52:39.928 ERROR [DiscoveryClient-InstanceInfoReplicator-0] [RedirectingEurekaHttpClient.java:83:execute] : Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.9.jar:4.4.9]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.5.jar:4.5.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.5.jar:4.5.5]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 31 more

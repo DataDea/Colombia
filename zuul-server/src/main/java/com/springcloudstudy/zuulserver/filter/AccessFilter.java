@@ -3,7 +3,9 @@ package com.springcloudstudy.zuulserver.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
+import com.springcloudstudy.common.spring.JsonResult;
 import com.springcloudstudy.common.util.CommonUtils;
+import com.springcloudstudy.common.util.JacksonUtil;
 import com.springcloudstudy.zuulserver.common.Signer;
 import com.springcloudstudy.zuulserver.common.ZuulConfig;
 import org.slf4j.Logger;
@@ -12,6 +14,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -47,10 +50,9 @@ public class AccessFilter extends ZuulFilter {
         logger.info("receive request[" + request.getRequestURI() + "], ip[" + request.getHeader("X-Real-IP") + "]");
         boolean sing = checkSing(request);
         if (!sing) {
-            context.setSendZuulResponse(false);
-            context.setResponseBody("{\"code\":\"4001\",\"msg\":\"非法请求头\"}");
-            context.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());//401
+            context.setResponseBody(JacksonUtil.convertObjecToJson(JsonResult.ERR_INVALID_HEADER.getResult()));
         }
+//        checkIp(context);
         return null;
     }
 
@@ -87,10 +89,8 @@ public class AccessFilter extends ZuulFilter {
     /**
      IP检查
      */
-    private boolean checkIp(RequestContext context) {
-
-        return true;
+    private void checkIp(RequestContext context) {
+        throw new RuntimeException(context.getRouteHost() + "[运行时异常]");
     }
-
 
 }

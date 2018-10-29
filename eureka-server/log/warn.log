@@ -1,0 +1,43 @@
+2018-10-29 10:12:08.450 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 10:12:10.500 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 10:12:12.475 WARN [main] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 10:22:12.469 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 10:32:12.440 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 10:33:02.872 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 10:33:06.750 WARN [http-nio-18080-exec-7] [AbstractInstanceRegistry.java:356:renew] : DS: Registry: lease doesn't exist, registering resource: USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 10:33:06.750 WARN [http-nio-18080-exec-7] [InstanceResource.java:116:renewLease] : Not Found (Renew): USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 10:42:12.427 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 10:53:42.742 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 10:53:44.391 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 10:53:45.675 WARN [main] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 11:00:25.965 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 11:01:15.964 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 11:01:32.373 WARN [http-nio-18080-exec-2] [AbstractInstanceRegistry.java:356:renew] : DS: Registry: lease doesn't exist, registering resource: USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 11:01:32.374 WARN [http-nio-18080-exec-2] [InstanceResource.java:116:renewLease] : Not Found (Renew): USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 11:02:05.965 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 11:03:45.660 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 11:03:45.970 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 11:08:47.327 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 11:08:50.303 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 11:08:52.880 WARN [main] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 11:18:52.865 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 11:28:52.850 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 11:31:23.408 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 11:38:52.834 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 11:41:23.428 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 11:41:27.374 WARN [http-nio-18080-exec-8] [AbstractInstanceRegistry.java:356:renew] : DS: Registry: lease doesn't exist, registering resource: USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 11:41:27.375 WARN [http-nio-18080-exec-8] [InstanceResource.java:116:renewLease] : Not Found (Renew): USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 11:45:33.437 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 11:45:50.653 WARN [http-nio-18080-exec-10] [AbstractInstanceRegistry.java:356:renew] : DS: Registry: lease doesn't exist, registering resource: USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 11:45:50.653 WARN [http-nio-18080-exec-10] [InstanceResource.java:116:renewLease] : Not Found (Renew): USER-SERVICE - 172.19.128.63:user-service:18085
+2018-10-29 11:48:52.817 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 11:51:23.451 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for USER-SERVICE/172.19.128.63:user-service:18085
+2018-10-29 14:19:34.921 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 14:19:38.720 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-10-29 14:19:39.801 WARN [main] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 14:29:39.786 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 14:30:30.037 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for SERVICE-ZUUL/localhost:service-zuul:18081
+2018-10-29 14:34:40.043 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for SERVICE-ZUUL/localhost:service-zuul:18081
+2018-10-29 14:39:39.773 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-10-29 14:48:50.073 WARN [Eureka-EvictionTimer] [AbstractInstanceRegistry.java:626:evict] : DS: Registry: expired lease for SERVICE-ZUUL/localhost:service-zuul:18081
+2018-10-29 14:49:39.756 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
