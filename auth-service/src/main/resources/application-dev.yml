@@ -1,6 +1,6 @@
 spring:
   application:
-    name: service-zuul
+    name: auth-service
   security:
     user:
       name: "client"
@@ -25,19 +25,7 @@ eureka:
       password: ${spring.security.user.password}
 
 server:
-  port: 18081
-
-zuul:
-  routes:
-    user-service:
-      path: /api-a/**
-      serviceId: user-service
-    new-service:
-      path: /api-b/**
-      serviceId: new-service
-    auth-service:
-      path: /autho/**
-      serviceId: auth-service
+  port: 18088
 
 management:
   endpoints:

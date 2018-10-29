@@ -43,15 +43,15 @@ public class AccessFilter extends ZuulFilter {
 
     @Override
     public Object run() {
-        RequestContext context = RequestContext.getCurrentContext();
-        HttpServletRequest request = context.getRequest();
-        //避免中文乱码
-        context.getResponse().setCharacterEncoding("UTF-8");
-        logger.info("receive request[" + request.getRequestURI() + "], ip[" + request.getHeader("X-Real-IP") + "]");
-        boolean sing = checkSing(request);
-        if (!sing) {
-            context.setResponseBody(JacksonUtil.convertObjecToJson(JsonResult.ERR_INVALID_HEADER.getResult()));
-        }
+//        RequestContext context = RequestContext.getCurrentContext();
+//        HttpServletRequest request = context.getRequest();
+//        //避免中文乱码
+//        context.getResponse().setCharacterEncoding("UTF-8");
+//        logger.info("receive request[" + request.getRequestURI() + "], ip[" + request.getHeader("X-Real-IP") + "]");
+//        boolean sing = checkSing(request);
+//        if (!sing) {
+//            context.setResponseBody(JacksonUtil.convertObjecToJson(JsonResult.ERR_INVALID_HEADER.getResult()));
+//        }
 //        checkIp(context);
         return null;
     }
