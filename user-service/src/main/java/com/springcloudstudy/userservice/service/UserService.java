@@ -1,5 +1,6 @@
 package com.springcloudstudy.userservice.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.springcloudstudy.common.bean.Address;
 import com.springcloudstudy.common.bean.User;
 import com.springcloudstudy.common.spring.JsonResult;

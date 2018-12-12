@@ -1,103 +1,10 @@
-2018-10-29 10:12:15.434 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 10:12:18.473 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 10:27:29.019 WARN [Thread-29] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540780049019, current=DOWN, previous=UP]
-2018-10-29 10:27:29.226 WARN [Thread-29] [AbstractApplicationContext.java:1003:doClose] : Exception thrown from ApplicationListener handling ContextClosedEvent
-org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:288) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:258) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:180) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:142) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-2018-10-29 10:27:29.239 WARN [Thread-29] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 10:27:35.870 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 10:27:36.990 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 10:47:16.894 WARN [Thread-20] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540781236894, current=DOWN, previous=UP]
-2018-10-29 10:47:17.013 WARN [Thread-20] [AbstractApplicationContext.java:1003:doClose] : Exception thrown from ApplicationListener handling ContextClosedEvent
-org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:288) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:258) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:180) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:142) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-2018-10-29 10:47:17.026 WARN [Thread-20] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 10:47:27.239 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 10:47:28.563 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 10:50:50.232 WARN [Thread-22] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540781450232, current=DOWN, previous=UP]
-2018-10-29 10:50:50.242 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-29 10:50:50.516 WARN [Thread-22] [AbstractApplicationContext.java:1003:doClose] : Exception thrown from ApplicationListener handling ContextClosedEvent
-org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:288) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:258) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:180) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:142) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-2018-10-29 10:50:50.533 WARN [Thread-22] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 10:50:52.410 WARN [DiscoveryClient-HeartbeatExecutor-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-29 10:50:52.410 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-29 10:50:52.411 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_NEW-SERVICE/172.19.128.63:new-service:18083 - registration failed Cannot execute request on any known server
+2018-11-29 10:37:45.359 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:37:46.512 WARN [main] [ArchaiusAutoConfiguration.java:151:configureArchaius] : No spring.application.name found, defaulting to 'application'
+2018-11-29 10:37:46.513 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:37:48.395 WARN [main] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2018-11-29 10:37:48.399 WARN [main] [DiscoveryClient.java:290:get] : Using default backup registry implementation which does not do anything.
+2018-11-29 10:37:48.435 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2018-11-29 10:37:48.436 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_UNKNOWN/172.19.128.75 - registration failed Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
@@ -114,7 +21,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-29 10:50:52.412 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
+2018-11-29 10:37:48.436 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
@@ -131,20 +38,44 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-29 10:55:07.887 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 10:55:09.056 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:07:03.816 WARN [Thread-20] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540782423816, current=DOWN, previous=UP]
-2018-10-29 11:07:04.333 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@5d3e8be9}] [AbstractApplicationContext.java:558:refresh] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaRibbonClientConfiguration': Unsatisfied dependency expressed through field 'eurekaConfig'; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 11:07:04.337 WARN [Thread-20] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 11:07:13.514 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:07:14.774 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:08:33.035 WARN [Thread-21] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540782513035, current=DOWN, previous=UP]
-2018-10-29 11:08:33.045 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: org.apache.http.client.ClientProtocolException
-2018-10-29 11:08:34.049 WARN [Thread-21] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 11:08:34.137 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@106321b7}] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:08:34.343 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@106321b7}] [AbstractApplicationContext.java:558:refresh] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ribbonLoadBalancingHttpClient' defined in org.springframework.cloud.netflix.ribbon.apache.HttpClientRibbonConfiguration: Unsatisfied dependency expressed through method 'ribbonLoadBalancingHttpClient' parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ribbonLoadBalancer' defined in org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.netflix.loadbalancer.ILoadBalancer]: Factory method 'ribbonLoadBalancer' threw exception; nested exception is java.lang.IllegalStateException: Shutdown in progress
-2018-10-29 11:08:35.251 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-29 11:08:35.252 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_NEW-SERVICE/172.19.128.63:new-service:18083 - registration failed Cannot execute request on any known server
+2018-11-29 10:38:18.415 WARN [DiscoveryClient-HeartbeatExecutor-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2018-11-29 10:38:18.416 WARN [DiscoveryClient-CacheRefreshExecutor-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2018-11-29 10:38:18.441 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2018-11-29 10:38:18.441 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_UNKNOWN/172.19.128.75 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-11-29 10:38:18.442 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-11-29 10:38:30.636 WARN [Thread-20] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1543459110636, current=DOWN, previous=UP]
+2018-11-29 10:38:30.640 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2018-11-29 10:38:30.641 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_UNKNOWN/172.19.128.75 - registration failed Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
@@ -161,7 +92,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-29 11:08:35.252 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
+2018-11-29 10:38:30.641 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
@@ -178,15 +109,12 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-29 11:08:56.613 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:08:58.516 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:38:29.289 WARN [Thread-30] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540784309289, current=DOWN, previous=UP]
-2018-10-29 11:38:30.141 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@7cdf6230}] [AbstractApplicationContext.java:558:refresh] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaRibbonClientConfiguration': Unsatisfied dependency expressed through field 'eurekaConfig'; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 11:38:30.145 WARN [Thread-30] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 11:38:37.853 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:38:39.000 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:44:04.028 WARN [Thread-21] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540784644028, current=DOWN, previous=UP]
-2018-10-29 11:44:04.451 WARN [Thread-21] [AbstractApplicationContext.java:1003:doClose] : Exception thrown from ApplicationListener handling ContextClosedEvent
+2018-11-29 10:38:30.830 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@4c737b80}] [AbstractApplicationContext.java:558:refresh] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaRibbonClientConfiguration': Unsatisfied dependency expressed through field 'eurekaConfig'; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-29 10:38:30.834 WARN [Thread-20] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-29 10:38:38.258 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:38:39.425 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:46:02.392 WARN [Thread-21] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1543459562392, current=DOWN, previous=UP]
+2018-11-29 10:46:03.259 WARN [Thread-21] [AbstractApplicationContext.java:1003:doClose] : Exception thrown from ApplicationListener handling ContextClosedEvent
 org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
@@ -214,126 +142,4 @@ org.springframework.beans.factory.BeanCreationNotAllowedException: Error creatin
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-2018-10-29 11:44:04.461 WARN [Thread-21] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 11:44:13.830 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:44:15.261 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 11:52:37.774 WARN [Thread-23] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540785157774, current=DOWN, previous=UP]
-2018-10-29 11:52:37.786 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: org.apache.http.client.ClientProtocolException
-2018-10-29 11:52:38.056 WARN [Thread-23] [AbstractApplicationContext.java:1003:doClose] : Exception thrown from ApplicationListener handling ContextClosedEvent
-org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:288) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:258) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:180) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:142) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
-2018-10-29 11:52:38.066 WARN [Thread-23] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 11:52:39.931 WARN [DiscoveryClient-HeartbeatExecutor-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-29 11:52:39.931 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-29 11:52:39.931 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_NEW-SERVICE/172.19.128.63:new-service:18083 - registration failed Cannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
-	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-29 11:52:39.932 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_181]
-	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-29 14:19:49.319 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 14:19:52.539 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 14:23:00.062 WARN [Thread-29] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540794180062, current=DOWN, previous=UP]
-2018-10-29 14:23:00.298 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@7f3702de}] [AbstractApplicationContext.java:558:refresh] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaRibbonClientConfiguration': Unsatisfied dependency expressed through field 'eurekaConfig'; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 14:23:00.301 WARN [Thread-29] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 14:23:11.090 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 14:23:14.270 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 14:24:33.733 WARN [Thread-27] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540794273733, current=DOWN, previous=UP]
-2018-10-29 14:24:34.704 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@1e49a46c}] [AbstractApplicationContext.java:558:refresh] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaRibbonClientConfiguration': Unsatisfied dependency expressed through field 'eurekaConfig'; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 14:24:34.707 WARN [Thread-27] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 14:24:43.744 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 14:24:46.869 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-29 14:50:26.561 WARN [Thread-28] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540795826561, current=DOWN, previous=UP]
-2018-10-29 14:50:26.570 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: org.apache.http.client.ClientProtocolException
-2018-10-29 14:50:26.683 WARN [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@518d7ffe}] [AbstractApplicationContext.java:558:refresh] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eurekaRibbonClientConfiguration': Unsatisfied dependency expressed through field 'eurekaConfig'; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 14:50:26.686 WARN [Thread-28] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-29 14:50:28.734 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-29 14:50:28.735 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_NEW-SERVICE/localhost:new-service:18083 - registration failed Cannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-29 14:50:28.735 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_181]
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-11-29 10:46:03.270 WARN [Thread-21] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)

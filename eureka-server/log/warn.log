@@ -1,3 +1,7 @@
-2018-10-30 01:02:25.606 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-30 01:02:27.074 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-30 01:02:28.036 WARN [main] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-11-29 00:26:14.827 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 00:26:16.827 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 00:26:18.524 WARN [main] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-11-29 00:36:18.483 WARN [Eureka-PeerNodesUpdater] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry
+2018-11-29 10:37:08.846 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:37:10.514 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:37:11.710 WARN [main] [PeerEurekaNodes.java:156:updatePeerEurekaNodes] : The replica size seems to be empty. Check the route 53 DNS Registry

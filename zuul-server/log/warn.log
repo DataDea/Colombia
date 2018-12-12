@@ -1,14 +1,10 @@
-2018-10-30 01:02:26.648 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-30 01:02:27.969 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-30 01:06:38.047 WARN [Thread-22] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540832798047, current=DOWN, previous=UP]
-2018-10-30 01:06:38.072 WARN [Thread-22] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-30 01:06:46.009 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-30 01:06:47.285 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
-2018-10-30 01:07:21.557 WARN [Thread-22] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1540832841557, current=DOWN, previous=UP]
-2018-10-30 01:07:21.572 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: org.apache.http.client.ClientProtocolException
-2018-10-30 01:07:21.577 WARN [Thread-22] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-10-30 01:07:23.753 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
-2018-10-30 01:07:23.754 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_SERVICE-ZUUL/yanghaidembp.lan:service-zuul:18081 - registration failed Cannot execute request on any known server
+2018-11-29 10:39:45.411 WARN [localhost-startStop-1] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:39:46.634 WARN [main] [URLConfigurationSource.java:121:<init>] : No URLs will be polled as dynamic configuration sources.
+2018-11-29 10:46:02.667 WARN [Thread-21] [DiscoveryClient.java:1297:notify] : Saw local status change event StatusChangeEvent [timestamp=1543459562667, current=DOWN, previous=UP]
+2018-11-29 10:46:02.681 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
+2018-11-29 10:46:02.700 WARN [Thread-21] [InitDestroyAnnotationBeanPostProcessor.java:163:postProcessBeforeDestruction] : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-29 10:46:04.813 WARN [DiscoveryClient-InstanceInfoReplicator-0] [RetryableEurekaHttpClient.java:130:execute] : Request execution failed with message: java.net.SocketException: Connection reset
+2018-11-29 10:46:04.814 WARN [DiscoveryClient-InstanceInfoReplicator-0] [DiscoveryClient.java:831:register] : DiscoveryClient_SERVICE-ZUUL/172.19.128.75:service-zuul:18081 - registration failed Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
@@ -25,7 +21,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
-2018-10-30 01:07:23.754 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
+2018-11-29 10:46:04.815 WARN [DiscoveryClient-InstanceInfoReplicator-0] [InstanceInfoReplicator.java:125:run] : There was a problem with the instance info replicator
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
